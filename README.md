@@ -1,14 +1,14 @@
 # wordpress-coding-cheatsheet
 
-# Plugin development
-## Restrict direct access
+## Plugin development
+### Restrict direct access
 ```php
 if ( ! defined( 'ABSPATH' ) ) {
     die();
 }
 ```
 
-## Plugin activation
+### Plugin activation
 ```php
 function activate_my_plugin() {
     // do stuff for activation ...
@@ -16,7 +16,7 @@ function activate_my_plugin() {
 register_activation_hook(__FILE__, 'activate_my_plugin');
 ```
 
-## Plugin deactivation
+### Plugin deactivation
 ```php
 function deactivate_my_plugin() {
     // do stuff for deactivation ...
@@ -25,7 +25,7 @@ function deactivate_my_plugin() {
 register_deactivation_hook(__FILE__, 'deactivate_my_plugin');
 ```
 
-## Plugin uninstallation
+### Plugin uninstallation
 ```php
 function uninstall_my_plugin() {
     // do stuff for uninstallation ...
