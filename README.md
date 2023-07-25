@@ -83,7 +83,7 @@ add_action('admin_menu', 'era_simple_options_page');
 ### Add some content after each post
 ```php
 function append_after_content($content) {
-    return $content . '<div style="text-align: right;"><small>i'm so small :)</small></div>';
+    return $content . '<div style="text-align: right;"><small>im so small :)</small></div>';
 }
 add_filter('the_content', 'append_after_content');
 ```
