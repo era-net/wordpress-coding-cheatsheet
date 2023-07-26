@@ -1,4 +1,13 @@
 # wordpress-coding-cheatsheet
+## Table of contents
+* [Plugin development](#plugin-development)
+    * [Restrict direct access](#restrict-direct-access)
+    * [Plugin activation](#plugin-activation)
+    * [Plugin deactivation](#plugin-deactivation)
+    * [Plugin uninstallation](#plugin-uninstallation)
+    * [Enqueue scripts in admin section](#enqueue-scripts-in-admin-section)
+    * [Add new sub menu item with page](#add-new-sub-menu-item-with-page)
+    * [Add some content after each post](#add-some-content-after-each-post)
 
 ## Plugin development
 ### Restrict direct access
